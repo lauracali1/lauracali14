@@ -1,0 +1,166 @@
+
+body{
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+.left{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding:10px;
+}
+.a1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.a2{
+    opacity: 50%; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.right ul{
+    list-style: none;
+    display: flex;
+}
+.right li{
+    margin-right: 50px;
+}
+.p{
+    position: absolute; 
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    top: 100px; 
+    left: 500px;
+}
+.foto1{
+    position: absolute; 
+    top: 250px; 
+    left:20px;
+}
+.h2foto1{
+    position: absolute; 
+    top: 320px;
+    left: 270px;
+    font-size: 25px;
+}
+.pfoto1{
+    position: absolute;
+    top: 390px;
+    left: 270px;
+    font-size: 15px;
+}
+.foto2{
+    position: absolute; 
+    top: 300px; 
+    right: 330px;
+    width: 250px;
+    height: 250px;
+}
+.h2foto2{
+    position: absolute;
+    top: 320px;
+    left: 970px;
+    font-size: 25px;
+}
+.pfoto2{
+    position: absolute;
+    top: 390px;
+    left: 970px;
+    font-size: 15px;
+
+}
+.foto3{
+    position: absolute; 
+    top: 620px; 
+    left: 80px;
+    width: 150px;
+    height:250px;
+}
+.h2foto3{
+    position: absolute;
+    top: 670px;
+    left: 270px;
+    font-size: 25px;
+}
+.pfoto3{
+    position: absolute;
+    top: 730px;
+    left: 270px;
+    font-size: 15px;
+}
+
+@media screen and (max-width:400px){
+    .main-content {
+        left: 5px;
+        top: 91px;
+    }
+    .left {
+        font-size: 15px;
+        margin-left: 0px;   
+    }
+    .navbar {
+        padding: 5px 5px;
+    }
+    .right li {
+        margin-right: 10px;
+    }
+    .foto1 {
+        position: absolute;
+        top: 100px;
+        left: -49px;
+    }
+    .h2foto1 {
+        position: absolute;
+        top: 156px;
+        left: 146px;
+        font-size: 21px;
+    }
+    .pfoto1 {
+        position: absolute;
+        top: 248px;
+        left: 147px;
+        font-size: 12px;
+    }
+    .foto2 {
+        top: 441px;
+        right: 183px;
+        width: 200px;
+        height: 200px;
+    }
+    .h2foto2 {
+        top: 453px;
+        left: 200px;
+        font-size: 25px;
+    }
+    .pfoto2 {
+        position: absolute;
+        top: 524px;
+        left: 192px;
+        font-size: 12px;
+    }
+    .foto3 {
+        top: 680px;
+        left: 25px;
+    }
+    .h2foto3 {
+        top: 715px;
+        left: 184px;
+    }
+    .pfoto3 {
+        top: 768px;
+        left: 149px;
+        font-size: 13px;
+    }
+}

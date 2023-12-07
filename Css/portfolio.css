@@ -1,0 +1,332 @@
+
+body{
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+.left{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding:10px;
+}
+.a1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.a2{
+    opacity: 50%; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.right ul{
+    list-style: none;
+    display: flex;
+}
+.right li{
+    margin-right: 50px;
+}
+.main-content{
+    position: absolute;
+    left: 50px; 
+    top: 250px;
+}
+.main-content h1{
+    font-size: 60px;
+     margin: 0;
+}
+.main-content p{
+    margin: 0;
+}
+.pg1{
+    margin: 0;
+    color: aqua;
+    font-size: 23px;
+}
+.fotojaPareh4{
+   font-size: 15px;
+   position: absolute;
+   font-weight: bold;
+   top: 400px;
+   left: 750px;
+   color:white;
+   font-family:'Times New Roman', Times, serif;
+}
+.fotojaPare{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 170px;
+    right:150px;
+}
+.foto{
+    width: 120px; 
+    height: 190px;
+    background-color:#222;
+    position: absolute; 
+    top: 130px;
+    right: 500px;
+}
+.foto2{
+
+    width: 180px;
+    height: 370px;
+    position: absolute;
+    right: 70px;
+    top: 300px; 
+    background-color:#a9a9a9; 
+    border-radius: 5px;
+}
+.fotojaDyteP{
+    position: absolute;
+    top: 104px;
+    font-size: 17px;
+    left: 5px;
+}
+.fotojaDyte{
+    width: 100px;
+    height: 110px;
+    border-radius: 50%; 
+    top: 5px;
+    left: 10px;
+    position: absolute;    
+}
+
+.fotojaTrete{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    right: 30px;
+    top: 15px;
+}
+.p1{
+    font-size: 20px;
+    position: absolute;
+    top: 130px;
+    right: 45px;
+}
+.p2{
+    font-size: 12px;
+    position: absolute;
+    top: 160px;
+    right: 65px;
+}
+.p3{
+    position: absolute;
+    font-size: 12px; 
+    top: 180px; 
+    padding: 10px;
+}
+.foto3{
+    height: 125px;
+    width: 350px; 
+    border: 2px solid white; 
+    position: absolute; 
+    right: 260px; top: 480px; 
+    background-color: white;
+    border-radius: 10px;
+}
+.fotojaKater{
+    width:130px; 
+    height:100px; 
+    position: absolute; 
+    left: 20px; 
+    top: 10px;
+}
+.pNje{
+    position: absolute; 
+    color:blue; 
+    left: 160px; 
+    top:0;
+    font-size: 12px;
+}
+.pDy{
+    position: absolute; 
+    color: black; 
+    left: 160px; 
+    top: 17px;
+}
+.pTre{
+    position: absolute; 
+    color:black; 
+    left: 160px; 
+    top: 45px; 
+    font-size: 12px
+}
+.foto4{
+    height: 25px; 
+    width: 190px; 
+    position: absolute;
+    right: 20px; 
+    top: 620px; 
+    border-radius: 7px; 
+    background-color: blue;
+}
+.foto4P{
+    position: absolute; 
+    top: -7px; 
+    font-size: 12px; 
+    left: 30px;
+}
+.foto5{
+    position: absolute; 
+    left: 100px; 
+    top: 520px; 
+    border-radius: 7px; 
+    width: 170px; 
+    height: 50px; 
+    border: 2px solid white; 
+    border-radius: 50px;
+}
+#project-link{
+    text-decoration: none;
+    color: white; 
+    position: absolute; 
+    top:15px;
+    left: 10px;
+    font-size: 15px;
+   
+}
+
+
+/* Responsiviiteti */
+@media screen and (max-width: 600px){
+
+}
+
+@media screen and (max-width:400px){
+    .main-content {
+        left: 5px;
+        top: 91px;
+    }
+    .left {
+        font-size: 15px;
+        margin-left: 0px;   
+    }
+    .navbar {
+        padding: 5px 5px;
+    }
+    .right li {
+        margin-right: 10px;
+    }
+    .main-content h1 {
+        font-size: 40px;
+    }
+    .pg1 {
+        font-size: 15px;
+    }
+    .fotojaPare {
+        width: 211px;
+        height: 187px;
+        top: 232px;
+        right: 61px;
+    }
+    .fotojaPareh4 {
+        font-size: 10px;
+        font-weight: 100;
+        top: 375px;
+        left: 117px;
+        color: black;
+    }
+    .foto2 {
+    width: 142px;
+    height: 261px;
+    right: 33px;
+    top: 342px;
+   }
+   .fotojaTrete {
+    width: 93px;
+    height: 100px;
+    right: 27px;
+    top: 10px;
+   }
+   .p1 {
+    font-size: 14px;
+    top: 100px;
+    right: 40px;
+   }
+   .p2 {
+    font-size: 9px;
+    top: 124px;
+    right: 57px;
+   }
+   .p3 {
+    font-size: 10px;
+    top: 133px;
+   }
+   .foto4 {
+    height: 21px;
+    width: 119px;
+    right: 13px;
+    top: 594px;
+   }
+   .foto4P {
+    top: -5px;
+    font-size: 9px;
+    left: 14px;
+   }
+
+   .foto3 {
+    height: 93px;
+    width: 187px;
+    right: 185px;
+    top: 433px;
+   }
+   .fotojaKater {
+    width: 82px;
+    height: 64px;
+    left: 10px;
+    top: 26px;
+   }
+   .pNje {
+    left: 90px;
+    top: -9px;
+    font-size: 15px;
+   }
+   .pDy {
+    left: 111px;
+    top: 8px;
+   }
+   .pTre {
+    left: 101px;
+    top: 34px;
+   }
+   .foto5 {
+    left: 29px;
+    top: 551px;
+    width: 132px;
+    height: 27px;
+    border: 1px solid white;
+   }
+   #project-link {
+    top: 7px;
+    left: 9px;
+    font-size: 11px;
+   }
+   .foto{
+    width: 96px;
+    height: 141px;
+    top: 211px;
+    right: 246px;
+   }
+   .fotojaDyte {
+    width: 72px;
+    height: 72px;
+   }
+   .fotojaDyteP {
+    top: 72px;
+    font-size: 12px;
+}
+}

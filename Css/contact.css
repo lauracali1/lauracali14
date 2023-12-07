@@ -1,0 +1,249 @@
+
+body{
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+.left{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding:10px;
+}
+.a1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.a2{
+    opacity: 50%; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.right ul{
+    list-style: none;
+    display: flex;
+}
+.right li{
+    margin-right: 50px;
+}
+
+.p1{
+    position: absolute; 
+    top: 70px; 
+    left: 420px; 
+    font-family:'Courier New', Courier, monospace; 
+    font-size: 40px; 
+    opacity: 80%;
+}
+.p2{
+    position: absolute; 
+    top: 150px; 
+    left: 100px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 60px;
+}
+.p3{
+    position: absolute; 
+    top: 200px; 
+    left: 100px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 70px;
+}
+.p4{
+    position: absolute; 
+    top: 420px; 
+    left:100px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 30px; 
+    color: aquamarine;
+}
+.img1{
+    position: absolute; 
+    top: 250px; 
+    right: 540px; 
+    width: 90px; 
+    height: 100px; 
+    border-radius: 1000px;
+}
+.faig{
+    font-size: 20px; 
+    color: aliceblue; 
+    position: absolute; 
+    left: 620px; 
+    top: 350px;
+}
+.p5{
+    font-size: 20px; 
+    color:beige; 
+    position: absolute; 
+    left:650px; 
+    top: 330px;
+}
+.img2{
+    position: absolute; 
+    top: 250px; 
+    right: 280px; 
+    width: 90px; 
+    height: 100px; 
+    border-radius: 1000px;
+}
+.fali{
+    font-size: 20px; 
+    color: aliceblue; 
+    position: absolute; 
+    left: 890px; 
+    top: 350px;
+}
+.p6{
+    font-size: 20px; 
+    color:beige; 
+    position: absolute; 
+    left: 920px; 
+    top: 330px;
+}
+.fafb{
+    font-size: 20px; 
+    color: aliceblue; 
+    position: absolute; 
+    left: 540px; 
+    top: 450px;
+}
+.p7{
+    font-size: 20px; 
+    color:beige; 
+    position: absolute; 
+    left: 570px; 
+    top: 430px;
+}
+.faph{
+    font-size: 20px; 
+    color: aliceblue; 
+    position: absolute; 
+    left: 740px; 
+    top: 450px;
+}
+.p8{
+    font-size: 20px; 
+    color:beige; 
+    position: absolute; 
+    left: 770px; 
+    top: 430px;
+}
+.faemail{
+    font-size: 20px; 
+    color: aliceblue; 
+    position: absolute; 
+    left: 920px; 
+    top: 450px;
+}
+.p9{
+    font-size: 15px; 
+    color:beige; 
+    position: absolute; 
+    left: 950px; 
+    top: 435px;
+}
+@media screen and (max-width:400px){
+    .main-content {
+        left: 5px;
+        top: 91px;
+    }
+    .left {
+        font-size: 15px;
+        margin-left: 0px;   
+    }
+    .navbar {
+        padding: 5px 5px;
+    }
+    .right li {
+        margin-right: 10px;
+    }
+    .p1 {
+        top: 70px;
+        left: 68px;
+        font-size: 20px;
+    }
+    .p2 {
+        top: 114px;
+        left: 64px;
+        font-size: 40px;
+    }
+    .p3 {
+        top: 81px;
+        left: 199px;
+        font-size: 60px;
+    }
+    .img1 {
+        top: 250px;
+        right: 231px;
+        width: 75px;
+        height: 83px;
+    }
+    .faig {
+        font-size: 20px;
+        left: 48px;
+        top: 350px;
+    }
+    .p5 {
+        font-size: 17px;
+        left: 70px;
+        top: 333px;
+    }
+    .img2 {
+        top: 250px;
+        right: 63px;
+        width: 75px;
+        height: 83px;
+    }
+    .fali {
+        left: 214px;
+        top: 350px;
+    }
+    .p6 {
+        font-size: 17px;
+        left: 238px;
+        top: 332px;
+    }
+    .fafb {
+        left: 115px;
+        top: 398px;
+    }
+    .p7 {
+        font-size: 17px;
+        left: 142px;
+        top: 382px;
+    }
+    .faph {
+        left: 20px;
+        top: 435px;
+    }
+    .p8 {
+        font-size: 17px;
+        left: 49px;
+        top: 417px;
+    }
+    .faemail {
+        left: 174px;
+        top: 432px;
+    }
+    .p9 {
+        font-size: 15px;
+        left: 200px;
+        top: 418px;
+    }
+    .p4 {
+        top: 453px;
+        left: 61px;
+    }
+}

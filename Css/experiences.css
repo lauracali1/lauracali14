@@ -1,0 +1,373 @@
+
+body{
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+.left{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding:10px;
+}
+.a1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.a2{
+    opacity: 50%; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.right ul{
+    list-style: none;
+    display: flex;
+}
+.right li{
+    margin-right: 50px;
+}
+
+.p1{
+    position: absolute; 
+    left: 170px; 
+    top: 200px; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 25px;
+}
+.p1_1{
+    position: absolute; 
+    left: 170px; 
+    top: 400px; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 25px;
+}
+.p1_2{
+    position: absolute; 
+    left: 170px; 
+    top: 600px; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 25px;
+}
+.p8{
+    position: absolute; 
+    border: 7px solid white; 
+    right: 700px; 
+    top: 150px; 
+    border-radius: 50%;
+}
+.p2{
+    position: absolute; 
+    background-color: white; 
+    right: 706px; 
+    top: 162px; 
+    width: 1px; 
+    height: 200px;
+}
+.p3{
+    position: absolute; 
+    font-size: 25px; 
+    left:600px; 
+    top: 120px; 
+    color: aqua;
+}
+.p4{
+    position: absolute;
+    left: 615px; 
+    top: 165px; 
+    font-size: 17px;
+}
+.p5{
+    position: absolute;
+    left: 615px; 
+    top: 185px; 
+    font-size: 15px; 
+    opacity: 70%;
+}
+.location-info{
+    position: absolute; 
+    display:flex; 
+    top:220px; 
+    left: 605px; 
+    align-items: center;
+    font-size: 15px;
+}
+.fa{
+    font-size: 20px;
+    margin-right: 8px;
+}
+.p6{
+    position: absolute; 
+    top: 255px; 
+    left:605px; 
+    font-size: 20px;
+}
+.p7{
+    position: absolute; 
+    top: 290px; 
+    left:605px;
+    font-size: 15px;
+}
+.p8{
+    position: absolute; 
+    border: 7px solid white; 
+    right: 700px; 
+    top: 380px; 
+    border-radius: 50%;
+}
+.p2_1{
+    position: absolute; 
+    background-color: white; 
+    right: 706px; 
+    top: 350px; 
+    width: 1px; 
+    height: 250px;
+}
+.p2_12{
+    position: absolute; 
+    border: 7px solid white; 
+    right: 700px; 
+    top: 150px; 
+    border-radius: 50%;
+}
+.p3_1{
+    position: absolute; 
+    font-size: 25px; 
+    left:600px; 
+    top: 350px; 
+    color: aqua;
+}
+.p4_1{
+    position: absolute;
+    left: 615px; 
+    top: 400px; 
+    font-size: 17px;
+}
+.p5_1{
+    position: absolute;
+    left: 615px; 
+    top: 420px; 
+    font-size: 15px; 
+    opacity: 70%;
+}
+.location-info1{
+    position: absolute; 
+    display:flex; 
+    top:450px; 
+    left: 605px; 
+    align-items: center;
+}
+.fa2{
+    font-size: 20px; 
+    margin-right: 8px;
+}
+.p7_1{
+    position: absolute; 
+    top: 490px;
+    left:605px;
+    font-size: 15px;
+}
+.p8_2{
+    position: absolute; 
+    border: 7px solid white; 
+    right: 700px; 
+    top: 580px; 
+    border-radius: 50%;
+}
+.p2_2{
+    position: absolute; 
+    background-color: white; 
+    right: 706px; 
+    top: 550px; 
+    width: 1px; 
+    height: 250px;
+}
+.p3_2{
+    position: absolute; 
+    font-size: 25px; 
+    left:600px; 
+    top: 550px; 
+    color: aqua; 
+}
+.p4_2{
+    position: absolute;
+    left: 615px; 
+    top: 600px; 
+    font-size: 17px;  
+}
+.p5_2{
+    position: absolute;
+    left: 615px;
+    top: 620px; 
+    font-size: 15px; 
+    opacity: 70%;  
+}
+.location-info3{
+    position: absolute; 
+    display:flex;
+    top:650px; 
+    left: 605px; 
+    align-items: center;
+    font-size: 17px;
+}
+.fa4{
+    font-size: 20px; 
+    margin-right: 8px;
+}
+.p7_2{
+    position: absolute; 
+    top: 690px; 
+    left:605px;
+    font-size: 15px;
+}
+/* Responsiviteti */
+
+@media screen and (max-width:400px){
+    .main-content {
+        left: 5px;
+        top: 91px;
+    }
+    .left {
+        font-size: 15px;
+        margin-left: 0px;   
+    }
+    .navbar {
+        padding: 5px 5px;
+    }
+    .right li {
+        margin-right: 10px;
+    }
+    .p1 {
+        left: 134px;
+        top: 110px;
+        font-size: 20px;
+    }
+    .p8 {
+        right: 350px;
+        top: 194px;
+    }
+    .p2 {
+        right: 357px;
+        top: 207px;
+    }
+    .p3 {
+        font-size: 21px;
+        left: 60px;
+        top: 181px;
+    }
+    .p4 {
+        left: 76px;
+        top: 215px;
+        font-size: 14px;
+    }
+    .p5 {
+        left: 76px;
+        top: 232px;
+        font-size: 11px;
+    }
+    .location-info {
+        top: 251px;
+        left: 52px;       
+    }
+    .p6 {
+        top: 290px;
+        left: 43px;
+        font-size: 17px;
+    }
+    .p7 {
+        top: 324px;
+        left: 46px;
+        font-size: 11px;
+    }
+    .p7_1 {
+        top: 500px;
+        left: 43px;
+        font-size: 12px;
+    }
+    .p1_1 {
+        left: 134px;
+        top: 109px;
+        font-size: 20px;
+    }
+    .p2_12 {
+        right: 350px;
+        top: 399px;
+    }
+    .p2_1 {
+        right: 357px;
+        top: 403px;
+    }
+    .p3_1 {
+        font-size: 23px;
+        left: 58px;
+        top: 400px;
+    }
+    .p4_1 {
+        left: 76px;
+        top: 434px;
+        font-size: 15px;
+    }
+    .p5_1 {
+        left: 76px;
+        top: 452px;
+        font-size: 11px;
+    }
+    .location-info1 {
+        top: 471px;
+        left: 50px;
+        font-size: 12px;
+    }
+    .p8_2 {
+        right: 351px;
+        top: 586px;
+    }
+    .p2_2 {
+        right: 357px;
+        top: 606px;
+    }
+    .p1_2 {
+        left: 134px;
+        top: 109px;
+        font-size: 20px;
+    }
+    .p3_2 {
+        font-size: 22px;
+        left: 58px;
+        top: 593px;
+    }
+    .p4_2 {
+        left: 67px;
+        top: 626px;
+        font-size: 15px;
+    }
+    .p5_2 {
+        left: 72px;
+        top: 648px;
+        font-size: 12px;
+    }
+    .location-info3 {
+        top: 669px;
+        left: 53px;
+    }
+    .p7_2 {
+        position: absolute;
+        top: 709px;
+        left: 38px;
+        font-size: 12px;
+    }
+    .p7_2 {
+        top: 709px;
+        left: 38px;
+        font-size: 12px;
+    }
+}

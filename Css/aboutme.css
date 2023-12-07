@@ -1,0 +1,230 @@
+body{
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+.left{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding:10px;
+}
+.a1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.a2{
+    opacity: 50%; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.right ul{
+    list-style: none;
+    display: flex;
+}
+.right li{
+    margin-right: 50px;
+}
+
+.pa1{
+    position: absolute;
+    top: 105px; 
+    left: 200px; 
+    font-size: 17px; 
+    color:aqua;
+}
+.pa2{
+    position: absolute; 
+    top: 110px; 
+    left: 270px; 
+    font-size: 15px; 
+    color:white;
+}
+.pa3{
+    position: absolute; 
+    top: 105px; 
+    left: 550px; 
+    font-size: 17px; 
+    color: aqua;
+}
+.pa4{
+    position: absolute; 
+    top: 110px; 
+    left: 655px; 
+    font-size: 15px; 
+    color: white;
+}
+.pa5{
+    position: absolute; 
+    top: 105px; 
+    left: 840px; 
+    font-size: 17px;
+    color: aqua;
+}
+.pa6{
+    position: absolute; 
+    top: 110px; 
+    left: 905px; 
+    font-size: 15px;
+    color:white
+}
+.pa7{
+    position: absolute; 
+    top: 160px; 
+    left: 420px; 
+    font-size: 18px; 
+    color: aqua;
+}
+.pa8{
+    position: absolute; 
+    top: 163px; 
+    left: 520px; 
+    font-size: 16px; 
+    color: white;
+}
+.fa{
+    position: absolute; 
+    color: white; 
+    left: 170px; 
+    top: 120px; 
+    font-size: 20px; 
+    color: aqua;
+}
+.p1{
+    position: absolute; 
+    font-size: 15px; 
+    left: 170px; 
+    color: aquamarine; 
+    top: 260px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p2{
+    position: absolute; 
+    font-size: 60px; 
+    left: 130px; 
+    top: 220px;
+}
+.p3{
+    position: absolute; 
+    font-size: 15px; 
+    left: 145px; 
+    color: aquamarine;
+    top: 330px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p4{
+    position: absolute; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px; 
+    bottom: 50px; 
+    top: 370px; 
+    left: 37px;
+
+}
+.aboutmeimg{
+    position: absolute; 
+    right: 100px; 
+    top: 250px; 
+    border-radius: 20px;
+    padding-bottom: 50px;
+    width: 400px;
+    height: 500px;
+}
+
+@media screen and (max-width:400px){
+    .main-content {
+        left: 5px;
+        top: 91px;
+    }
+    .left {
+        font-size: 15px;
+        margin-left: 0px;   
+    }
+    .navbar {
+        padding: 5px 5px;
+    }
+    .right li {
+        margin-right: 10px;
+    }
+    .fa {
+        left: 18px;
+        top: 104px;
+        font-size: 13px;
+    }
+    .pa1 {
+        top: 94px;
+        left: 40px;
+        font-size: 12px;
+    }
+    .pa2 {
+        top: 96px;
+        left: 90px;
+        font-size: 11px;
+    }
+    .pa3 {
+        top: 95px;
+        left: 237px;
+        font-size: 12px;
+    }
+    .pa4 {
+    top: 96px;
+    left: 312px;
+    font-size: 12px;
+    }
+    .pa5 {
+        top: 120px;
+        left: 37px;
+        font-size: 13px;
+    }
+    .pa6 {
+        top: 122px;
+        left: 89px;
+        font-size: 12px;
+    }
+    .pa7 {
+        top: 121px;
+        left: 194px;
+        font-size: 13px;
+    }
+    .pa8 {
+        top: 122px;
+        left: 268px;
+        font-size: 13px;
+    }
+    .aboutmeimg {
+        right: 198px;
+        top: 181px;
+        width: 158px;
+        height: 205px;
+    }
+    .p2 {
+        font-size: 53px;
+        left: 218px;
+        top: 163px;
+    }
+    .p3 {
+        font-size: 15px;
+        left: 206px;
+        top: 321px;
+    }
+    .p1 {
+        left: 317px;
+        top: 194px;
+    }
+    .p4 {
+        font-size: 11px;
+        top: 395px;
+        left: 37px;
+    }
+}
