@@ -11,6 +11,21 @@ body{
     color: #fff;
     padding: 10px 20px;
 }
+.menu-icon {
+    cursor: pointer;
+    display: none;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+}
+.right ul{
+    list-style: none;
+    display: flex;
+}
 .navbar a{
     text-decoration: none;
     color: #fff;
@@ -22,6 +37,7 @@ body{
     margin-left: 50px;
     padding:10px;
 }
+
 .a1{
     font-family: 'Times New Roman', Times, serif;
 }
@@ -143,19 +159,49 @@ body{
 }
 
 @media screen and (max-width:400px){
+
+    .menu-icon {
+        display: block;
+    }
     .main-content {
         left: 5px;
         top: 91px;
     }
-    .left {
-        font-size: 15px;
-        margin-left: 0px;   
+   
+    .right {
+        padding: 20px;
+        z-index: 50;
+        display: none;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #222;
+        align-items: flex-start;
+        justify-content: flex-start; 
     }
+    
+    .right.show {
+        display: flex;
+    }
+    
+    .right ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+
     .navbar {
         padding: 5px 5px;
     }
     .right li {
         margin-right: 10px;
+        padding-bottom:20px ;
     }
     .fa {
         left: 18px;

@@ -16,6 +16,21 @@ body{
     text-decoration: none;
     color: #fff;
 }
+.menu-icon {
+    cursor: pointer;
+    display: none;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+}
+.right ul{
+    list-style: none;
+    display: flex;
+}
 .left{
     display: flex;
     font-size: 25px;
@@ -155,19 +170,44 @@ body{
     top: 435px;
 }
 @media screen and (max-width:400px){
+    .menu-icon {
+        display: block;
+    }
     .main-content {
         left: 5px;
         top: 91px;
     }
-    .left {
-        font-size: 15px;
-        margin-left: 0px;   
+   
+    .right  {
+        padding: 20px;
+        z-index: 50;
+        display: none;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #222 ;
+        align-items: flex-start;
+        justify-content: flex-start; 
     }
-    .navbar {
-        padding: 5px 5px;
+    
+    .right.show {
+        display: flex;
     }
+    
+    .right ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+    }
+   
     .right li {
         margin-right: 10px;
+        padding-bottom: 20px;
     }
     .p1 {
         top: 70px;
