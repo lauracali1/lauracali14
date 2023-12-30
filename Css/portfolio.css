@@ -65,6 +65,9 @@ body{
     color: aqua;
     font-size: 23px;
 }
+.paragrafi{
+    font-size: 15px;
+}
 .fotojaPareh4{
    font-size: 15px;
    position: absolute;
@@ -214,28 +217,33 @@ body{
 
 /* Responsiviiteti */
 @media screen and (max-width: 600px){
+    .bar {
+        width: 44px;
+        height: 3px;
+        margin: 5px 27px;
+    }
     .menu-icon {
         display: block;
+        position: relative;
+        top: 26px;
+        left: 0;
     }
     .main-content {
         left: 5px;
         top: 91px;
     }
-   
-    .right  {
+   .right {
         z-index: 50;
+        padding: 20px;
         display: none;
-        flex-direction: column;
         width: 50%;
         height: 100%;
         position: absolute;
+        background-color: #222;
         top: 60px;
         left: 0;
-        background-color: #222 ;
-        align-items: flex-start;
-        justify-content: flex-start; 
-    }
-    
+      
+    }  
     .right.show {
         display: flex;
     }
@@ -247,43 +255,147 @@ body{
         margin: 10px;
         padding: 10px;
     }
-    
+    .navbar {
+        padding: 5px 5px;
+    }
     .right li {
-        margin-bottom: 10px; 
+        margin-right: 10px;
+        padding-bottom:20px ;
     }
     .left {
-        position: absolute;
-        right: -337px;
-        font-size: 34px;
+        font-size: 31px;
+        padding-top: 21px;
     }
     .main-content h1 {
-        font-size: 43px;
+        position: relative;
+        top: 37px;
+        left: 10px;
+        font-size: 51px;
     }
     .pg1 {
-        font-size: 18px;
+        font-size: 21px;
+        position: relative;
+        top: 28px;
+        left: 10px;
     }
-    .main-content p {
-        margin: -1px;
+    .paragrafi {
+        font-size: 13px;
+        position: relative;
+        top: 28px;
+        left: 10px;
     }
     .fotojaPare {
-        top: 226px;
+        width: 282px;
+        height: 192px;
+        position: absolute;
+        top: 270px;
+        right: 66px;
+    }
+    .foto2 {
+        width: 120px;
+        height: 263px;
+        position: absolute;
+        right: 33px;
+        top: 382px;
+    }
+    .fotojaTrete {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        right: 18px;
+        top: 7px;
+    }
+    .p1 {
+        font-size: 9px;
+        position: absolute;
+        top: 84px;
+        right: 39px;
+    }
+    .p2 {
+        font-size: 8px;
+        position: absolute;
+        top: 97px;
+        right: 45px;
+    }
+    .p3 {
+        position: absolute;
+        font-size: 8px;
+        top: 110px;
+        padding: 12px;
+    }
+    .foto4 {
+        height: 20px;
+        width: 118px;
+        position: absolute;
+        right: 9px;
+        top: 635px;
+        border-radius: 7px;
+    }
+    .foto4P {
+        position: absolute;
+        top: 0px;
+        font-size: 7px;
+        left: 20px;
+    }
+    .foto3 {
+        height: 111px;
+        width: 252px;
+        position: absolute;
+        right: 159px;
+        top: 466px;
+    }    
+    .foto5 {
+        position: absolute;
+        left: 25px;
+        top: 596px;
+        width: 163px;
+        height: 39px;
+        border: 1px solid white;
+        border-radius: 18px;
+    }
+    #project-link {
+        position: absolute;
+        top: 12px;
+        left: 14px;
+        font-size: 12px;
     }
     .foto {
-        top: 190px;
-        right: 436px;
+        width: 112px;
+        height: 174px;
+        position: absolute;
+        top: 240px;
+        right: 288px;
     }
+    .fotojaDyte {
+        width: 80px;
+        height: 89px;
+        position: absolute;
+    }
+    .fotojaDyteP {
+        position: absolute;
+        top: 82px;
+    }
+   
 }
 
 @media screen and (max-width:400px){
+    .bar {
+        width: 34px;
+        height: 3px;
+        margin: 4px 10px;
+    }
     .menu-icon {
         display: block;
+        top: 6px;
+        left: 2px;
     }
     .main-content {
         left: 5px;
         top: 91px;
     }
    
-    .right  {
+    .right {
         padding: 20px;
         z-index: 50;
         display: none;
@@ -293,7 +405,7 @@ body{
         position: absolute;
         top: 60px;
         left: 0;
-        background-color: #222 ;
+        background-color: #222;
         align-items: flex-start;
         justify-content: flex-start; 
     }
@@ -309,19 +421,31 @@ body{
         margin: 10px;
         padding: 10px;
     }
-    
-    .right li {
-        margin-bottom: 10px; 
+    .navbar {
+        padding: 5px 5px;
     }
-    .left{
-        position: absolute;
-        right: 15px;
+    .right li {
+        margin-right: 10px;
+        padding-bottom:20px ;
+    }
+    .left {
+        display: flex;
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 50px;
+        padding: 10px;
     }
     .main-content h1 {
         font-size: 40px;
+        position: static;
     }
     .pg1 {
         font-size: 15px;
+        position: static;
+    }
+    .paragrafi{
+        font-size: 13px;
+        position:static;
     }
     .fotojaPare {
         width: 211px;

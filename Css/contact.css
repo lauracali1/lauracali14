@@ -169,16 +169,140 @@ body{
     left: 950px; 
     top: 435px;
 }
-@media screen and (max-width:400px){
+@media  screen and (max-width: 600px) {
+    .bar {
+        width: 44px;
+        height: 3px;
+        margin: 5px 27px;
+    }
     .menu-icon {
         display: block;
+        position: relative;
+        top: 26px;
+        left: 0;
     }
     .main-content {
         left: 5px;
         top: 91px;
     }
+   .right {
+        z-index: 10;
+        padding: 20px;
+        display: none;
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        background-color: #222;
+        top: 60px;
+        left: 0;
+      
+    }  
+    .right.show {
+        display: flex;
+    }
+    
+    .right ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+    }
+    .navbar {
+        padding: 5px 5px;
+    }
+    .right li {
+        margin-right: 10px;
+        padding-bottom:20px ;
+    }
+    .left {
+        font-size: 31px;
+        padding-top: 21px;
+    }
+    .p1 {
+        left: 40px;
+        font-size: 30px;
+    }
+    .p3 {
+        top: 91px;
+        left: 233px;
+    }
+    .p2 {
+        top: 112px;
+        left: 53px;
+        font-size: 54px;
+    }
+    .img1 {
+        top: 286px;
+        right: 266px;
+        width: 90px;
+        height: 100px;
+    }
+    .img2 {
+        top: 286px;
+        right: 103px;
+        width: 90px;
+        height: 100px;
+    }
+    .faig {
+        left: 49px;
+        top: 412px;
+    }
+    .p5 {
+        left: 73px;
+        top: 391px;
+    }
+    .fali {
+        left: 219px;
+        top: 409px;
+    }
+    .p6 {
+        left: 245px;
+        top: 387px;
+    }
+    .fafb {
+        left: 124px;
+        top: 468px;
+    }
+    .p7 {
+        left: 156px;
+        top: 445px;
+    }
+    .faph {
+        left: 43px;
+        top: 522px;
+    }
+    .p8 {
+        left: 68px;
+        top: 500px;
+    }
+    .faemail {
+        left: 192px;
+        top: 519px;
+    }
+    .p9 {
+        left: 216px;
+        top: 505px;
+    }
+    .p4 {
+        top: 541px;
+        left: 88px;
+    }
+
+}
+@media screen and (max-width:400px){
+    .bar {
+        width: 34px;
+        height: 3px;
+        margin: 4px 10px;
+    }
+    .menu-icon {
+        display: block;
+        top: 6px;
+        left: 2px;
+    }
    
-    .right  {
+    .right {
         padding: 20px;
         z-index: 50;
         display: none;
@@ -188,7 +312,7 @@ body{
         position: absolute;
         top: 60px;
         left: 0;
-        background-color: #222 ;
+        background-color: #222;
         align-items: flex-start;
         justify-content: flex-start; 
     }
@@ -204,10 +328,19 @@ body{
         margin: 10px;
         padding: 10px;
     }
-   
+    .navbar {
+        padding: 5px 5px;
+    }
     .right li {
         margin-right: 10px;
-        padding-bottom: 20px;
+        padding-bottom:20px ;
+    }
+    .left {
+        display: flex;
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 50px;
+        padding: 10px;
     }
     .p1 {
         top: 70px;

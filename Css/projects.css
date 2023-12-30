@@ -116,9 +116,117 @@ body{
     font-size: 15px;
 }
 
-@media screen and (max-width:400px){
+@media  screen and (max-width: 600px) {
+    .bar {
+        width: 44px;
+        height: 3px;
+        margin: 5px 27px;
+    }
     .menu-icon {
         display: block;
+        position: relative;
+        top: 26px;
+        left: 0;
+    }
+    .main-content {
+        left: 5px;
+        top: 91px;
+    }
+   .right {
+        padding: 20px;
+        display: none;
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+      
+    }  
+    .right.show {
+        display: flex;
+    }
+    
+    .right ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+    }
+    .navbar {
+        padding: 5px 5px;
+    }
+    .right li {
+        margin-right: 10px;
+        padding-bottom:20px ;
+    }
+    .left {
+        font-size: 31px;
+        padding-top: 21px;
+    }
+    .p {
+        font-size: 41px;
+        top: 59px;
+        left: 100px;
+    }
+    .foto1 {
+        position: absolute;
+        top: 151px;
+        left: -49px;
+    }
+    .h2foto1 {
+        position: absolute;
+        top: 244px;
+        left: 168px;
+        font-size: 18px;
+    }
+    .pfoto1 {
+        position: absolute;
+        top: 293px;
+        left: 187px;
+        font-size: 11px;
+    }
+    .foto2 {
+        top: 481px;
+        right: 237px;
+        width: 200px;
+        height: 200px;
+    }
+    .h2foto2 {
+        top: 516px;
+        left: 224px;
+        font-size: 25px;
+    }
+    .pfoto2 {
+        position: absolute;
+        top: 577px;
+        left: 224px;
+        font-size: 12px;
+    }
+    .foto3 {
+        top: 681px;
+        left: 3px;
+    }
+    .h2foto3 {
+        top: 739px;
+        left: 197px;
+    }
+    .pfoto3 {
+        top: 792px;
+        left: 165px;
+        font-size: 11px;
+    }   
+}
+@media screen and (max-width:400px){
+    .bar {
+        width: 34px;
+        height: 3px;
+        margin: 4px 10px;
+    }
+    .menu-icon {
+        display: block;
+        top: 6px;
+        left: 2px;
     }
     .main-content {
         left: 5px;
@@ -151,55 +259,70 @@ body{
         margin: 10px;
         padding: 10px;
     }
+    .navbar {
+        padding: 5px 5px;
+    }
     .right li {
         margin-right: 10px;
-        padding-bottom: 20px;
+        padding-bottom:20px ;
+    }
+    .left {
+        display: flex;
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 50px;
+        padding: 10px;
+    }
+    .p {
+        font-size: 41px;
+        top: 64px;
+        left: 81px;
     }
     .foto1 {
         position: absolute;
-        top: 100px;
+        top: 151px;
         left: -49px;
     }
     .h2foto1 {
         position: absolute;
-        top: 156px;
-        left: 146px;
-        font-size: 21px;
+        top: 244px;
+        left: 135px;
+        font-size: 18px;
     }
     .pfoto1 {
         position: absolute;
-        top: 248px;
-        left: 147px;
-        font-size: 12px;
+        top: 293px;
+        left: 151px;
+        font-size: 10px;
     }
     .foto2 {
-        top: 441px;
-        right: 183px;
+        top: 481px;
+        right: 203px;
         width: 200px;
         height: 200px;
     }
     .h2foto2 {
-        top: 453px;
-        left: 200px;
+        top: 516px;
+        left: 189px;
         font-size: 25px;
     }
     .pfoto2 {
         position: absolute;
-        top: 524px;
-        left: 192px;
+        top: 577px;
+        left: 184px;
         font-size: 12px;
     }
     .foto3 {
-        top: 680px;
-        left: 25px;
+        top: 681px;
+        left: 3px;
     }
     .h2foto3 {
-        top: 715px;
-        left: 184px;
+        top: 739px;
+        left: 160px;
     }
     .pfoto3 {
-        top: 768px;
-        left: 149px;
-        font-size: 13px;
+        top: 792px;
+        left: 145px;
+        font-size: 11px;
     }
 }

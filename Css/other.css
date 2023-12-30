@@ -1,5 +1,4 @@
 
-
 body{
     background-color: black;
     color: white;
@@ -98,14 +97,13 @@ body{
 .text{
   color:black;
   font-size: 50px;
-  padding: 8px 12px;
   position: absolute;
   width: 100%;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   top: 80px; 
   letter-spacing: 2px; 
-  left: 200px;
+  left: 105px;
 }
 
 .text1{
@@ -168,13 +166,12 @@ body{
 .text2 {
   color:black;
   font-size: 50px;
-  padding: 8px 12px;
   position: absolute;
   width: 100%;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   top: 100px;
-  left: 200px;
+  left: 100px;
  
 }
 .text3{
@@ -196,13 +193,12 @@ body{
 .text4 {
   color:black;
   font-size: 50px;
-  padding: 8px 12px;
   position: absolute;
   width: 100%;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   top: 100px;
-  left: 200px;
+  left: 100px;
  
 }
 .text5{
@@ -221,13 +217,12 @@ body{
 .text6 {
   color:black;
   font-size: 50px;
-  padding: 8px 12px;
   position: absolute;
   width: 100%;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   top: 100px;
-  left: 200px;
+  left: 100px;
  
 }
 .text7{
@@ -246,13 +241,12 @@ body{
 .text8 {
   color:black;
   font-size: 50px;
-  padding: 8px 12px;
   position: absolute;
   width: 100%;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   top: 100px;
-  left: 200px;
+  left: 100px;
  
 }
 .text9{
@@ -273,7 +267,6 @@ body{
 }
 .text10 {
   color:black;
-  padding: 8px 12px;
   position: absolute;
   width: 100%;
   text-align: center;
@@ -297,9 +290,165 @@ body{
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 400px) {
+@media  screen and (max-width: 600px) {
+  .bar {
+    width: 44px;
+    height: 3px;
+    margin: 5px 27px;
+}
   .menu-icon {
+      display: block;
+      position: relative;
+      top: 26px;
+      left: 0;
+  }
+  .main-content {
+      left: 5px;
+      top: 91px;
+  }
+ .right {
+      z-index: 10;
+      background-color: #222;
+      padding: 20px;
+      display: none;
+      width: 50%;
+      height: 100%;
+      position: absolute;
+      top: 60px;
+      left: 0;
+    
+  }  
+  .right.show {
+      display: flex;
+  }
+  
+  .right ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      margin: 10px;
+      padding: 10px;
+  }
+  .navbar {
+      padding: 5px 5px;
+  }
+  .right li {
+      margin-right: 10px;
+      padding-bottom:20px ;
+  }
+  .left {
+    font-size: 31px;
+    padding-top: 21px;
+  }
+  .p1 {
+    top: 100px;
+    left: 23px;
+    font-size: 32px;
+  }
+  .slideshow-container {
+    top: 168px;
+    margin: 16px;
+    padding-bottom: 3px;
+  }
+  .img1 {
+    width: 400px;
+    height: 263px;
+  }
+  .text {
+    font-size: 30px;
+    top: 26px;
+    letter-spacing: 1px;
+    left: 47px;
+  }
+  .text1 {
+    font-size: 15px;
+    top: 133px;
+    letter-spacing: 2px;
+    left: 187px;
+  }
+  .img2 {
+    width: 400px;
+    height: 263px;
+  }
+  .text2 {
+    font-size: 25px;
+    top: 30px;
+    left: 39px;
+  }
+  .text3 {
+    letter-spacing: 1px;
+    font-size: 10px;
+    top: 104px;
+    left: 187px;
+  }
+  .img3 {
+    width: 400px;
+    height: 263px;
+  }
+  .text4 {
+    font-size: 30px;
+    top: 27px;
+    left: 36px;
+  }
+  .text5 {
+    font-size: 10px;
+    top: 84px;
+    left: 167px;
+  }
+  .img4 {
+    width: 400px;
+    height: 263px;
+  }
+  .text6 {
+    font-size: 35px;
+    top: 33px;
+    left: 53px;
+  }
+  .text7 {
+    font-size: 10px;
+    top: 119px;
+    left: 207px;
+  }
+  .img5 {
+    width: 400px;
+    height: 263px;
+  }
+  .text8 {
+    font-size: 30px;
+    top: 32px;
+    left: 30px;
+  }
+  .text9 {
+    letter-spacing: 0px;
+    font-size: 10px;
+    top: 136px;
+    left: 197px;
+  }
+  .img6 {
+    width: 400px;
+    height: 263px;
+  }
+  .text10 {
+    top: 15px;
+    left: 20px;
+    font-size: 20px;
+  }
+  .text11 {
+    font-size: 7px;
+    top: 80px;
+    left: 86px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .bar {
+    width: 34px;
+    height: 3px;
+    margin: 4px 10px;
+}
+.menu-icon {
     display: block;
+    top: 6px;
+    left: 2px;
 }
 .main-content {
     left: 5px;
@@ -332,8 +481,19 @@ body{
     margin: 10px;
     padding: 10px;
 }
-.right li{
-  padding-bottom: 20px;
+.navbar {
+    padding: 5px 5px;
+}
+.right li {
+    margin-right: 10px;
+    padding-bottom:20px ;
+}
+.left {
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding: 10px;
 }
 .p1 {
   top: 62px;
@@ -346,7 +506,7 @@ body{
   padding-bottom: 3px;
 }
 .img1 {
-  width: 343px;
+  width: 345px;
   height: 249px;
 }
 .text {
@@ -362,7 +522,7 @@ body{
   left: 158px;
 }
 .img2 {
-  width: 343px;
+  width: 345px;
   height: 249px;
 }
 .text2 {
@@ -377,7 +537,7 @@ body{
   left: 111px;
 }
 .img3 {
-  width: 343px;
+  width: 345px;
   height: 249px;
 }
 .text4 {
@@ -391,7 +551,7 @@ body{
   left: 167px;
 }
 .img4 {
-  width: 343px;
+  width: 345px;
   height: 249px;
 }
 .text6 {
@@ -405,7 +565,7 @@ body{
   left: 175px;
 }
 .img5 {
-  width: 343px;
+  width: 345px;
   height: 249px;
 }
 .text8 {
@@ -414,14 +574,13 @@ body{
   left: 30px;
 }
 .text9 {
-
   letter-spacing: 0px;
   font-size: 10px;
   top: 136px;
   left: 157px;
 }
 .img6 {
-  width: 343px;
+  width: 345px;
   height: 249px;
 }
 .text10 {
@@ -434,5 +593,4 @@ body{
   top: 80px;
   left: 86px;
 }
-
 }
