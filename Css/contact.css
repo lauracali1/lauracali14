@@ -169,6 +169,16 @@ body{
     left: 950px; 
     top: 435px;
 }
+.copyright-footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    width: 96.5%;
+    top: 600px;
+}
 @media  screen and (max-width: 600px) {
     .bar {
         width: 44px;
@@ -287,6 +297,10 @@ body{
     .p4 {
         top: 541px;
         left: 88px;
+    }
+    .copyright-footer {
+        width: 90%;
+        top: 657px;
     }
 
 }
@@ -418,5 +432,9 @@ body{
     .p4 {
         top: 453px;
         left: 61px;
+    }
+    .copyright-footer {
+        width: 90%;
+        top: 590px;
     }
 }

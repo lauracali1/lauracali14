@@ -161,7 +161,16 @@ body{
     width: 400px;
     height: 500px;
 }
-
+.copyright-footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    width: 96.5%;
+    top: 800px;
+}
 @media  screen and (max-width: 600px) {
     .bar {
         width: 44px;
@@ -219,50 +228,43 @@ body{
     }
     .pa1 {
         left: 30px;
-        font-size: 15px;
-        text-align: center;
+        font-size: 12px;
+        top: 111px;
     }
     .pa2 {
-        top: 106px;
-        left: 90px;
-        font-size: 14px;
-        text-align: center;
+        top: 112px;
+        left: 80px;
+        font-size: 12px;
     }
     .pa3 {
-        top: 105px;
-        left: 235px;
-        font-size: 14px;
-        text-align: center;
+        top: 112px;
+        left: 230px;
+        font-size: 12px;
     }
     .pa4 {
-        top: 106px;
-        left: 319px;
-        font-size: 13px;
-        text-align: center;
+        top: 112px;
+        left: 306px;
+        font-size: 12px;
     }
     .pa5 {
-        top: 138px;
+        top: 142px;
         left: 51px;
-        font-size: 15px;
-        text-align: center;
+        font-size: 12px;
     }
     .pa6 {
-        top: 140px;
-        left: 107px;
-        font-size: 14px;
-        text-align: center;
+        top: 142px;
+        left: 97px;
+        font-size: 12px;
     }
     .pa7 {
-        top: 139px;
+        top: 140px;
         left: 175px;
-        font-size: 15px;
-        text-align: center;
+        font-size: 13px;
     }
     .pa8 {
-        top: 139px;
-        left: 256px;
-        font-size: 15px;
-        text-align: center;
+        top: 141px;
+        left: 246px;
+        font-size: 13px;
     }
     .aboutmeimg {
         right: 249px;
@@ -286,9 +288,9 @@ body{
         top: 350px;
     }
     .p4 {
-        font-size: 13px;
+        font-size: 11px;
         top: 414px;
-        left: 30px;
+        left: 50px;
     }
 }
 
@@ -418,5 +420,9 @@ body{
         font-size: 11px;
         top: 395px;
         left: 37px;
+    }
+    .copyright-footer {
+        width: 89%;
+        top: 800px;
     }
 }

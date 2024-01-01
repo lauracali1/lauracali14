@@ -115,6 +115,16 @@ body{
     left: 270px;
     font-size: 15px;
 }
+.copyright-footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    width: 96.5%;
+    top: 900px;
+}
 
 @media  screen and (max-width: 600px) {
     .bar {
@@ -216,6 +226,10 @@ body{
         left: 165px;
         font-size: 11px;
     }   
+    .copyright-footer {
+        width: 89.5%;
+        top: 900px;
+    }
 }
 @media screen and (max-width:400px){
     .bar {
@@ -324,5 +338,9 @@ body{
         top: 792px;
         left: 145px;
         font-size: 11px;
+    }
+    .copyright-footer {
+        width: 88.5%;
+        top: 900px;
     }
 }
