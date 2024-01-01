@@ -210,8 +210,17 @@ body{
     position: absolute; 
     top:15px;
     left: 10px;
-    font-size: 15px;
-   
+    font-size: 15px;  
+}
+.copyright-footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    width: 96.5%;
+    top: 700px;
 }
 
 
@@ -375,6 +384,10 @@ body{
     .fotojaDyteP {
         position: absolute;
         top: 82px;
+    }
+    .copyright-footer {
+        width: 90.5%;
+        top: 700px;
     }
    
 }
