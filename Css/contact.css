@@ -1,21 +1,23 @@
-
-body{
+body {
     background-color: black;
     color: white;
     padding: 0;
     margin: 0;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     background-color: transparent;
     color: #fff;
     padding: 10px 20px;
 }
-.navbar a{
+
+.navbar a {
     text-decoration: none;
     color: #fff;
 }
+
 .menu-icon {
     cursor: pointer;
     display: none;
@@ -27,148 +29,170 @@ body{
     background-color: white;
     margin: 6px 0;
 }
-.right ul{
+
+.right ul {
     list-style: none;
     display: flex;
 }
-.left{
+
+.left {
     display: flex;
     font-size: 25px;
     font-weight: bold;
     margin-left: 50px;
-    padding:10px;
+    padding: 10px;
 }
-.a1{
+
+.a1 {
     font-family: 'Times New Roman', Times, serif;
 }
-.a2{
-    opacity: 50%; 
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.a2 {
+    opacity: 50%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.right ul{
+
+.right ul {
     list-style: none;
     display: flex;
 }
-.right li{
+
+.right li {
     margin-right: 50px;
 }
 
-.p1{
-    position: absolute; 
-    top: 70px; 
-    left: 420px; 
-    font-family:'Courier New', Courier, monospace; 
-    font-size: 40px; 
+.p1 {
+    position: absolute;
+    top: 70px;
+    left: 420px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
     opacity: 80%;
 }
-.p2{
-    position: absolute; 
-    top: 150px; 
-    left: 100px; 
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+
+.p2 {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 60px;
 }
-.p3{
-    position: absolute; 
-    top: 200px; 
-    left: 100px; 
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+
+.p3 {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 70px;
 }
-.p4{
-    position: absolute; 
-    top: 420px; 
-    left:100px; 
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-    font-size: 30px; 
+
+.p4 {
+    position: absolute;
+    top: 420px;
+    left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
     color: aquamarine;
 }
-.img1{
-    position: absolute; 
-    top: 250px; 
-    right: 540px; 
-    width: 90px; 
-    height: 100px; 
+
+.img1 {
+    position: absolute;
+    top: 250px;
+    right: 540px;
+    width: 90px;
+    height: 100px;
     border-radius: 1000px;
 }
-.faig{
-    font-size: 20px; 
-    color: aliceblue; 
-    position: absolute; 
-    left: 620px; 
+
+.faig {
+    font-size: 20px;
+    color: aliceblue;
+    position: absolute;
+    left: 620px;
     top: 350px;
 }
-.p5{
-    font-size: 20px; 
-    color:beige; 
-    position: absolute; 
-    left:650px; 
+
+.p5 {
+    font-size: 20px;
+    color: beige;
+    position: absolute;
+    left: 650px;
     top: 330px;
 }
-.img2{
-    position: absolute; 
-    top: 250px; 
-    right: 280px; 
-    width: 90px; 
-    height: 100px; 
+
+.img2 {
+    position: absolute;
+    top: 250px;
+    right: 280px;
+    width: 90px;
+    height: 100px;
     border-radius: 1000px;
 }
-.fali{
-    font-size: 20px; 
-    color: aliceblue; 
-    position: absolute; 
-    left: 890px; 
+
+.fali {
+    font-size: 20px;
+    color: aliceblue;
+    position: absolute;
+    left: 890px;
     top: 350px;
 }
-.p6{
-    font-size: 20px; 
-    color:beige; 
-    position: absolute; 
-    left: 920px; 
+
+.p6 {
+    font-size: 20px;
+    color: beige;
+    position: absolute;
+    left: 920px;
     top: 330px;
 }
-.fafb{
-    font-size: 20px; 
-    color: aliceblue; 
-    position: absolute; 
-    left: 540px; 
+
+.fafb {
+    font-size: 20px;
+    color: aliceblue;
+    position: absolute;
+    left: 540px;
     top: 450px;
 }
-.p7{
-    font-size: 20px; 
-    color:beige; 
-    position: absolute; 
-    left: 570px; 
+
+.p7 {
+    font-size: 20px;
+    color: beige;
+    position: absolute;
+    left: 570px;
     top: 430px;
 }
-.faph{
-    font-size: 20px; 
-    color: aliceblue; 
-    position: absolute; 
-    left: 740px; 
+
+.faph {
+    font-size: 20px;
+    color: aliceblue;
+    position: absolute;
+    left: 740px;
     top: 450px;
 }
-.p8{
-    font-size: 20px; 
-    color:beige; 
-    position: absolute; 
-    left: 770px; 
+
+.p8 {
+    font-size: 20px;
+    color: beige;
+    position: absolute;
+    left: 770px;
     top: 430px;
 }
-.faemail{
-    font-size: 20px; 
-    color: aliceblue; 
-    position: absolute; 
-    left: 920px; 
+
+.faemail {
+    font-size: 20px;
+    color: aliceblue;
+    position: absolute;
+    left: 920px;
     top: 450px;
 }
-.p9{
-    font-size: 15px; 
-    color:beige; 
-    position: absolute; 
-    left: 950px; 
+
+.p9 {
+    font-size: 15px;
+    color: beige;
+    position: absolute;
+    left: 950px;
     top: 435px;
 }
+
 .copyright-footer {
     background-color: #222;
     padding: 20px;
@@ -179,23 +203,27 @@ body{
     width: 96.5%;
     top: 600px;
 }
-@media  screen and (max-width: 600px) {
+
+@media screen and (max-width: 600px) {
     .bar {
         width: 44px;
         height: 3px;
         margin: 5px 27px;
     }
+
     .menu-icon {
         display: block;
         position: relative;
         top: 26px;
         left: 0;
     }
+
     .main-content {
         left: 5px;
         top: 91px;
     }
-   .right {
+
+    .right {
         z-index: 10;
         padding: 20px;
         display: none;
@@ -205,12 +233,13 @@ body{
         background-color: #222;
         top: 60px;
         left: 0;
-      
-    }  
+
+    }
+
     .right.show {
         display: flex;
     }
-    
+
     .right ul {
         list-style: none;
         display: flex;
@@ -218,104 +247,126 @@ body{
         margin: 10px;
         padding: 10px;
     }
+
     .navbar {
         padding: 5px 5px;
     }
+
     .right li {
         margin-right: 10px;
-        padding-bottom:20px ;
+        padding-bottom: 20px;
     }
+
     .left {
         font-size: 31px;
         padding-top: 21px;
     }
+
     .p1 {
         left: 40px;
         font-size: 30px;
     }
+
     .p3 {
         top: 91px;
         left: 233px;
     }
+
     .p2 {
         top: 112px;
         left: 53px;
         font-size: 54px;
     }
+
     .img1 {
         top: 286px;
         right: 266px;
         width: 90px;
         height: 100px;
     }
+
     .img2 {
         top: 286px;
         right: 103px;
         width: 90px;
         height: 100px;
     }
+
     .faig {
         left: 49px;
         top: 412px;
     }
+
     .p5 {
         left: 73px;
         top: 391px;
     }
+
     .fali {
         left: 219px;
         top: 409px;
     }
+
     .p6 {
         left: 245px;
         top: 387px;
     }
+
     .fafb {
         left: 124px;
         top: 468px;
     }
+
     .p7 {
         left: 156px;
         top: 445px;
     }
+
     .faph {
         left: 43px;
         top: 522px;
     }
+
     .p8 {
         left: 68px;
         top: 500px;
     }
+
     .faemail {
         left: 192px;
         top: 519px;
     }
+
     .p9 {
         left: 216px;
         top: 505px;
     }
+
     .p4 {
         top: 541px;
         left: 88px;
     }
+
     .copyright-footer {
         width: 90%;
         top: 657px;
     }
 
 }
-@media screen and (max-width:400px){
+
+@media screen and (max-width:400px) {
     .bar {
         width: 34px;
         height: 3px;
         margin: 4px 10px;
     }
+
     .menu-icon {
         display: block;
         top: 6px;
         left: 2px;
     }
-   
+
     .right {
         padding: 20px;
         z-index: 50;
@@ -328,13 +379,13 @@ body{
         left: 0;
         background-color: #222;
         align-items: flex-start;
-        justify-content: flex-start; 
+        justify-content: flex-start;
     }
-    
+
     .right.show {
         display: flex;
     }
-    
+
     .right ul {
         list-style: none;
         display: flex;
@@ -342,13 +393,16 @@ body{
         margin: 10px;
         padding: 10px;
     }
+
     .navbar {
         padding: 5px 5px;
     }
+
     .right li {
         margin-right: 10px;
-        padding-bottom:20px ;
+        padding-bottom: 20px;
     }
+
     .left {
         display: flex;
         font-size: 25px;
@@ -356,83 +410,100 @@ body{
         margin-left: 50px;
         padding: 10px;
     }
+
     .p1 {
         top: 70px;
         left: 68px;
         font-size: 20px;
     }
+
     .p2 {
         top: 114px;
         left: 64px;
         font-size: 40px;
     }
+
     .p3 {
         top: 81px;
         left: 199px;
         font-size: 60px;
     }
+
     .img1 {
         top: 250px;
         right: 231px;
         width: 75px;
         height: 83px;
     }
+
     .faig {
         font-size: 20px;
         left: 48px;
         top: 350px;
     }
+
     .p5 {
         font-size: 17px;
         left: 70px;
         top: 333px;
     }
+
     .img2 {
         top: 250px;
         right: 63px;
         width: 75px;
         height: 83px;
     }
+
     .fali {
         left: 214px;
         top: 350px;
     }
+
     .p6 {
         font-size: 17px;
         left: 238px;
         top: 332px;
     }
+
     .fafb {
         left: 115px;
         top: 398px;
     }
+
     .p7 {
         font-size: 17px;
         left: 142px;
         top: 382px;
     }
+
     .faph {
         left: 20px;
         top: 435px;
     }
+
     .p8 {
         font-size: 17px;
         left: 49px;
         top: 417px;
     }
+
     .faemail {
         left: 174px;
         top: 432px;
     }
+
     .p9 {
         font-size: 15px;
         left: 200px;
         top: 418px;
     }
+
     .p4 {
         top: 453px;
         left: 61px;
     }
+
     .copyright-footer {
         width: 90%;
         top: 590px;
